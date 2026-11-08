@@ -45,3 +45,4 @@
  .login-card h1{font-size:19px;margin:12px 0 5px;}
  .login-card>p{font-size:9px;margin-bottom:16px;}
 }
+.demo-login-hint{width:100%;display:grid;grid-template-columns:1fr auto;gap:4px 10px;margin:0 0 15px;padding:11px 13px;text-align:right;color:#f5eaff;background:linear-gradient(120deg,#8732bb40,#53248448);border:1px solid #c56cf277;border-radius:10px}.demo-login-hint b{grid-column:1/-1;font-size:11px;color:#e8baff}.demo-login-hint span{font-size:10px;direction:ltr;text-align:left}.demo-login-hint small{grid-column:1/-1;font-size:9px;color:#cfb5df;margin-top:3px}.demo-login-hint:hover{background:#8732bb60;border-color:#d18aff}

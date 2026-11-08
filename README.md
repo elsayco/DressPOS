@@ -4,6 +4,10 @@ Arabic RTL interactive frontend prototype for a clothing store point-of-sale and
 
 ![DressPOS sign-in screen](Deliverables/screenshots/login.png)
 
+## Live demo
+
+https://elsayco.github.io/DressPOS/
+
 ## Run locally
 
 Requirements: Node.js 20 or newer.

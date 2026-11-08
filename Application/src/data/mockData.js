@@ -4,15 +4,16 @@ export const branches = [
   { id:'b3', name:'فرع الإسكندرية', area:'الإسكندرية', manager:'محمود حسن' },
 ];
 export const categories=['الكل','ملابس رجالي','ملابس حريمي','أطفال','أحذية','إكسسوارات'];
+const productImage = (name) => `${import.meta.env.BASE_URL}assets/${name}`;
 export const products=[
- {id:'p1',image:'/assets/shirt-blue.webp',name:'قميص كتان كلاسيك',sku:'DRS-1042',barcode:'6223000104218',category:'ملابس رجالي',brand:'Dress House',price:1250,cost:720,stock:24,minimum:8,color:'#e5d9c8',icon:'👔',sizes:['M','L','XL'],colors:['بيج','أبيض','كحلي']},
- {id:'p2',image:'/assets/hoodie-beige.webp',name:'فستان صيفي مزهر',sku:'DRS-2087',barcode:'6223000208712',category:'ملابس حريمي',brand:'Luna',price:1890,cost:1060,stock:12,minimum:5,color:'#efdde8',icon:'👗',sizes:['S','M','L'],colors:['وردي','أزرق']},
- {id:'p3',image:'/assets/tee-black.webp',name:'تيشيرت قطني أساسي',sku:'DRS-3014',barcode:'6223000301425',category:'ملابس رجالي',brand:'Urban',price:650,cost:320,stock:48,minimum:12,color:'#dce5ee',icon:'👕',sizes:['S','M','L','XL'],colors:['أبيض','أسود','رمادي']},
- {id:'p4',image:'/assets/jacket-black.webp',name:'جاكيت جينز يومي',sku:'DRS-4110',barcode:'6223000411054',category:'ملابس حريمي',brand:'Luna',price:2350,cost:1420,stock:6,minimum:8,color:'#dce3ec',icon:'🧥',sizes:['M','L'],colors:['أزرق فاتح','كحلي']},
- {id:'p5',image:'/assets/sneaker-white.webp',name:'حذاء رياضي خفيف',sku:'DRS-5026',barcode:'6223000502642',category:'أحذية',brand:'Step',price:1650,cost:920,stock:18,minimum:6,color:'#e4e1dc',icon:'👟',sizes:['38','39','40','41','42'],colors:['أبيض','أسود']},
- {id:'p6',image:'/assets/backpack-black.webp',name:'حقيبة كتف جلد',sku:'DRS-6033',barcode:'6223000603389',category:'إكسسوارات',brand:'Luna',price:2100,cost:1250,stock:9,minimum:5,color:'#e7ded2',icon:'👜',sizes:['واحد'],colors:['بني','أسود']},
- {id:'p7',image:'/assets/hoodie-gray.webp',name:'طقم أطفال قطني',sku:'DRS-7049',barcode:'6223000704958',category:'أطفال',brand:'Mini',price:890,cost:480,stock:31,minimum:10,color:'#e8e5fa',icon:'🧸',sizes:['2Y','4Y','6Y'],colors:['ليلكي','أخضر']},
- {id:'p8',image:'/assets/shirt-blue.webp',name:'بلوزة ساتان أنيقة',sku:'DRS-8091',barcode:'6223000809177',category:'ملابس حريمي',brand:'Luna',price:1420,cost:780,stock:3,minimum:6,color:'#e8deee',icon:'👚',sizes:['S','M','L'],colors:['موف','كريمي']},
+ {id:'p1',image:productImage('shirt-blue.webp'),name:'قميص كتان كلاسيك',sku:'DRS-1042',barcode:'6223000104218',category:'ملابس رجالي',brand:'Dress House',price:1250,cost:720,stock:24,minimum:8,color:'#e5d9c8',icon:'👔',sizes:['M','L','XL'],colors:['بيج','أبيض','كحلي']},
+ {id:'p2',image:productImage('hoodie-beige.webp'),name:'فستان صيفي مزهر',sku:'DRS-2087',barcode:'6223000208712',category:'ملابس حريمي',brand:'Luna',price:1890,cost:1060,stock:12,minimum:5,color:'#efdde8',icon:'👗',sizes:['S','M','L'],colors:['وردي','أزرق']},
+ {id:'p3',image:productImage('tee-black.webp'),name:'تيشيرت قطني أساسي',sku:'DRS-3014',barcode:'6223000301425',category:'ملابس رجالي',brand:'Urban',price:650,cost:320,stock:48,minimum:12,color:'#dce5ee',icon:'👕',sizes:['S','M','L','XL'],colors:['أبيض','أسود','رمادي']},
+ {id:'p4',image:productImage('jacket-black.webp'),name:'جاكيت جينز يومي',sku:'DRS-4110',barcode:'6223000411054',category:'ملابس حريمي',brand:'Luna',price:2350,cost:1420,stock:6,minimum:8,color:'#dce3ec',icon:'🧥',sizes:['M','L'],colors:['أزرق فاتح','كحلي']},
+ {id:'p5',image:productImage('sneaker-white.webp'),name:'حذاء رياضي خفيف',sku:'DRS-5026',barcode:'6223000502642',category:'أحذية',brand:'Step',price:1650,cost:920,stock:18,minimum:6,color:'#e4e1dc',icon:'👟',sizes:['38','39','40','41','42'],colors:['أبيض','أسود']},
+ {id:'p6',image:productImage('backpack-black.webp'),name:'حقيبة كتف جلد',sku:'DRS-6033',barcode:'6223000603389',category:'إكسسوارات',brand:'Luna',price:2100,cost:1250,stock:9,minimum:5,color:'#e7ded2',icon:'👜',sizes:['واحد'],colors:['بني','أسود']},
+ {id:'p7',image:productImage('hoodie-gray.webp'),name:'طقم أطفال قطني',sku:'DRS-7049',barcode:'6223000704958',category:'أطفال',brand:'Mini',price:890,cost:480,stock:31,minimum:10,color:'#e8e5fa',icon:'🧸',sizes:['2Y','4Y','6Y'],colors:['ليلكي','أخضر']},
+ {id:'p8',image:productImage('shirt-blue.webp'),name:'بلوزة ساتان أنيقة',sku:'DRS-8091',barcode:'6223000809177',category:'ملابس حريمي',brand:'Luna',price:1420,cost:780,stock:3,minimum:6,color:'#e8deee',icon:'👚',sizes:['S','M','L'],colors:['موف','كريمي']},
 ];
 export const customers=[
  {id:'c1',name:'نورهان أحمد',phone:'0101 234 5678',email:'norhan@example.com',type:'ذهبي',points:1240,total:28450,visits:18,avatar:'ن'},

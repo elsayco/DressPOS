@@ -18,21 +18,24 @@ npm ci
 npm run dev
 ```
 
-Open the local URL printed by Vite. Enter any non-empty username and password to open the demo dashboard.
+Open the local URL printed by Vite. Use the demo account `Admin` / `admin` to open the demo dashboard. This client-side account is only for the showcase.
 
 Build a production bundle with `npm run build` inside `Application`.
 
-## Screens
+## Modules
 
-Login, Dashboard, POS, Sales, Products, Inventory, Customers, Suppliers, Reports, Users, Store Administration, and Settings.
+Login, dashboard, POS, sales, products, inventory, purchasing, finance, customer and supplier statements, branches, attendance and shifts, activity log, reports, users, store administration, and settings.
 
-Browse [all screen captures](Deliverables/screenshots/) or read the [project documentation](Documentation/README.md).
+The newly added operational modules use mock state and have known workflow gaps; see the [compliance matrix](Documentation/SCREEN_COMPLIANCE_MATRIX.md), [mock data notes](Documentation/MOCK_DATA.md), and [QA report](Documentation/QA_REPORT.md). Browse [desktop captures](Deliverables/screenshots/) and [extended module captures](Deliverables/screenshots/extended/).
 
 ## Demo notes
 
 - The UI is Arabic and right-to-left, with responsive layouts.
 - POS checkout, receiving stock, search, forms, detail panels, and reports use local sample data.
 - Changes reset on page refresh. No real payment is taken and no data is saved to a server.
+- New purchase receipts, returns, payments, expenses, adjustments, attendance, and settlements update only the local demonstration state; transfers are status simulations and are not a warehouse ledger.
+
+Run the lightweight domain tests with `npm test` inside `Application`.
 
 ## Repository layout
 

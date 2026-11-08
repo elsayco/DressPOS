@@ -11,6 +11,6 @@
 | Customers | `#/customers` | Customer list, tier filters, loyalty and purchase totals | Customer profile with purchase history and invoice links |
 | Suppliers | `#/suppliers` | Supplier list, contact, purchase totals, outstanding balance | Supplier profile and purchase invoice demonstration |
 | Reports | `#/reports` | KPI summary, sales charts, branch comparison, top products, quick report categories | Branch/product detail links and local export feedback |
-| Users | `#/users` | Users, role tabs, status filters, login activity, permission checkboxes | User detail/permission panel; add-user and role demonstration |
+| Users | `#/users` | Users, role tabs, status filters, login activity, role-based page list | User detail opens clickable sample pages for the user's role; add-user and role demonstration |
 | Store Administration | `#/admin` | Administration overview, branches, operations modules, activity list | Branch details, users, reports, and store settings links |
 | Settings | `#/settings` | Settings categories and demonstration forms | Category navigation and local save feedback |

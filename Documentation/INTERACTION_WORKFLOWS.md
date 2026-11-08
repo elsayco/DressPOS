@@ -22,4 +22,4 @@ Open Store Administration → choose a branch → open its details or view users
 
 ## Local-only buttons
 
-Export controls provide feedback only. Print opens browser print preview. Login accepts any non-empty values and does not authenticate. QR, barcode, discounts, and filters are simulations.
+Export controls provide feedback only. Print opens browser print preview. The showcase login accepts only the visible demo account `Admin` / `admin`; it does not authenticate against a server. The per-role page lists are illustrative and are not enforced access controls. QR, barcode, discounts, and some filters are simulations.

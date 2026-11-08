@@ -1,29 +1,19 @@
 # QA Report
 
-## Build and launch
+Date: 2026-11-08
 
-- `npm install` completed in `Application` (0 reported vulnerabilities at install time).
-- `npm run build` completed successfully with Vite 8.3.6.
-- Local development server served `http://127.0.0.1:5173` during browser verification.
+## Results
 
-## Route and visual review
+- `npm test`: passed, 4 Node built-in unit tests for stock quantity changes, stocktake variance, custody settlement caps/status, and cash variance signs.
+- `npm run build`: passed with Vite 8.3.6.
+- Browser route smoke review: login, then 20 added module routes were opened. A missing activity-log subroute was found during review and fixed. Route headings were then observed on all added routes; no browser page errors were observed after the fix.
+- New-route screenshots are saved in `Deliverables/screenshots/extended/`.
+- Existing desktop screenshot/reference comparisons for the original 12 screens are recorded in `SCREEN_COMPLIANCE_MATRIX.md`; the newly added pages have not yet had a detailed side-by-side visual review.
+- No TypeScript check applies; this project is JavaScript/JSX.
 
-- Opened all 12 routes: Login, Dashboard, POS, Sales, Products, Inventory, Customers, Suppliers, Reports, Users, Store Administration, and Settings.
-- Captured desktop screenshots at 1672×941 in `Deliverables/screenshots`.
-- Created a paired design review montage at `Deliverables/design-comparison-contact-sheet.jpg` and a reference inventory montage at `Deliverables/reference-contact-sheet.jpg`.
-- Direct hash route loading was checked for all implemented modules. Hash navigation is used so routes survive refresh.
+## Limitations / follow-up
 
-## Workflow checks
-
-- Demo sign-in advanced from Login to Dashboard.
-- POS product selection added an item to cart; 14% tax and the total updated. Demo checkout generated `INV-2085`, opened invoice details, and displayed it in Sales.
-- A purchase receipt was entered through Suppliers, and the Inventory balance and movement list updated in the same local session.
-- Customer chooser displayed customer choices and updated the POS selection.
-- Product, invoice, supplier, customer, user, and branch detail panels are connected to shared in-memory entities.
-
-## Caveats
-
-- The screenshots were reviewed side-by-side at contact-sheet scale; this is not a pixel-perfect diff or per-screen visual sign-off.
-- Responsive breakpoints are implemented, but tablet and mobile screenshots were not included in this delivery review.
-- Browser devtools emitted React missing-key warnings during earlier development iterations; those source keys were improved, but an exhaustive clean-console pass across all routes was not recorded.
-- Product pictures are cropped from the supplied design references because no separate product photography files were provided. Several demo catalog items use the closest available garment image.
+- The production bundle triggers Vite's advisory that its main JavaScript chunk exceeds 500 kB minified. It is not a build failure; code splitting would reduce initial download size.
+- Browser checks covered route rendering. The full purchasing, returns, transfer, stocktake, finance, attendance, and responsive-device scenarios were not all exercised end to end in the browser.
+- Original screens still use a large `main.jsx`; decomposition is incomplete.
+- A number of workflows are intentionally simplified, as detailed in `MOCK_DATA.md` and `KNOWN_LIMITATIONS.md`.

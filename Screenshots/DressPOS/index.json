@@ -1,0 +1,337 @@
+[
+  {
+    "file": "01-login.png",
+    "title": "تسجيل الدخول",
+    "url": "https://elsayco.github.io/DressPOS/?capture=login"
+  },
+  {
+    "file": "02-login-demo-filled.png",
+    "title": "تسجيل الدخول — إدخال بيانات المدير",
+    "url": "https://elsayco.github.io/DressPOS/?capture=login"
+  },
+  {
+    "file": "03-dashboard.png",
+    "title": "لوحة التحكم",
+    "url": "https://elsayco.github.io/DressPOS/?capture=login#/dashboard"
+  },
+  {
+    "file": "04-dashboard-month.png",
+    "title": "لوحة التحكم — اختيار الفترة",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104529311#/dashboard"
+  },
+  {
+    "file": "05-pos-empty.png",
+    "title": "نقطة البيع — السلة فارغة",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104530181#/pos"
+  },
+  {
+    "file": "06-pos-cart.png",
+    "title": "نقطة البيع — إضافة منتج",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104530181#/pos"
+  },
+  {
+    "file": "07-pos-checkout.png",
+    "title": "نقطة البيع — إتمام البيع التجريبي",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104530181#/pos"
+  },
+  {
+    "file": "08-sales.png",
+    "title": "المبيعات",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104532464#/sales"
+  },
+  {
+    "file": "09-sales-completed.png",
+    "title": "المبيعات — مكتملة",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104533164#/sales"
+  },
+  {
+    "file": "10-sales-pending.png",
+    "title": "المبيعات — قيد الانتظار",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104534233#/sales"
+  },
+  {
+    "file": "11-sales-refunded.png",
+    "title": "المبيعات — مستردة",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104535238#/sales"
+  },
+  {
+    "file": "12-sales-invoice-detail.png",
+    "title": "المبيعات — تفاصيل فاتورة",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104536277#/sales"
+  },
+  {
+    "file": "13-products.png",
+    "title": "المنتجات",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104537527#/products"
+  },
+  {
+    "file": "14-products-add.png",
+    "title": "المنتجات — إضافة منتج",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104537527#/products"
+  },
+  {
+    "file": "15-products-detail.png",
+    "title": "المنتجات — تفاصيل منتج",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104540013#/products"
+  },
+  {
+    "file": "16-products-favorite.png",
+    "title": "المنتجات — إضافة للمفضلة",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104541437#/products"
+  },
+  {
+    "file": "17-inventory-balances.png",
+    "title": "المخزون — الأرصدة",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104542659#/inventory"
+  },
+  {
+    "file": "18-inventory-adjust.png",
+    "title": "المخزون — تسوية مخزون",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104542659#/inventory"
+  },
+  {
+    "file": "19-inventory-transfer.png",
+    "title": "المخزون — تحويل مخزني",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104542659#/inventory"
+  },
+  {
+    "file": "20-inventory-movements.png",
+    "title": "المخزون — حركة المخزون",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104546180#/inventory"
+  },
+  {
+    "file": "21-inventory-transfers.png",
+    "title": "المخزون — التحويلات",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104547154#/inventory"
+  },
+  {
+    "file": "22-customers.png",
+    "title": "العملاء",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104548221#/customers"
+  },
+  {
+    "file": "23-customers-detail.png",
+    "title": "العملاء — تفاصيل عميل",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104548928#/customers"
+  },
+  {
+    "file": "24-customers-add.png",
+    "title": "العملاء — إضافة عميل",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104550141#/customers"
+  },
+  {
+    "file": "25-suppliers.png",
+    "title": "الموردون",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104551683#/suppliers"
+  },
+  {
+    "file": "26-suppliers-detail.png",
+    "title": "الموردون — تفاصيل مورد",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104552377#/suppliers"
+  },
+  {
+    "file": "27-suppliers-add.png",
+    "title": "الموردون — إضافة مورد",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104553571#/suppliers"
+  },
+  {
+    "file": "28-suppliers-purchase.png",
+    "title": "الموردون — فاتورة مشتريات",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104553571#/suppliers"
+  },
+  {
+    "file": "29-reports.png",
+    "title": "التقارير",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104556411#/reports"
+  },
+  {
+    "file": "30-reports-1.png",
+    "title": "التقارير — المبيعات",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104557150#/reports"
+  },
+  {
+    "file": "31-reports-2.png",
+    "title": "التقارير — المشتريات",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104558252#/reports"
+  },
+  {
+    "file": "32-reports-3.png",
+    "title": "التقارير — المخزون",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104559319#/reports"
+  },
+  {
+    "file": "33-reports-4.png",
+    "title": "التقارير — العملاء",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104560411#/reports"
+  },
+  {
+    "file": "34-reports-5.png",
+    "title": "التقارير — الأرباح",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104561462#/reports"
+  },
+  {
+    "file": "35-reports-6.png",
+    "title": "التقارير — الموظفون",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104562570#/reports"
+  },
+  {
+    "file": "36-users.png",
+    "title": "إدارة المستخدمين",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104563623#/users"
+  },
+  {
+    "file": "37-users-person-1.png",
+    "title": "المستخدمون — صفحات المستخدم 1",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104564309#/users"
+  },
+  {
+    "file": "38-users-person-2.png",
+    "title": "المستخدمون — صفحات المستخدم 2",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104565511#/users"
+  },
+  {
+    "file": "39-users-person-3.png",
+    "title": "المستخدمون — صفحات المستخدم 3",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104566682#/users"
+  },
+  {
+    "file": "40-users-person-4.png",
+    "title": "المستخدمون — صفحات المستخدم 4",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104567891#/users"
+  },
+  {
+    "file": "41-users-roles.png",
+    "title": "المستخدمون — الأدوار والصلاحيات",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104569149#/users"
+  },
+  {
+    "file": "42-users-role-edit.png",
+    "title": "المستخدمون — إعداد صلاحيات دور",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104569149#/users"
+  },
+  {
+    "file": "43-users-add.png",
+    "title": "المستخدمون — إضافة مستخدم",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104571362#/users"
+  },
+  {
+    "file": "44-users-login-history.png",
+    "title": "المستخدمون — سجل الدخول",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104571362#/users"
+  },
+  {
+    "file": "45-admin.png",
+    "title": "إدارة المتجر",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104573648#/admin"
+  },
+  {
+    "file": "46-admin-branch-detail.png",
+    "title": "إدارة المتجر — تفاصيل فرع",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104574579#/admin"
+  },
+  {
+    "file": "47-admin-branch-add.png",
+    "title": "إدارة المتجر — إضافة فرع",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104575871#/admin"
+  },
+  {
+    "file": "48-admin-activity.png",
+    "title": "إدارة المتجر — سجل النشاط",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104575871#/admin"
+  },
+  {
+    "file": "49-settings-overview.png",
+    "title": "الإعدادات — نظرة عامة",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104578341#/settings"
+  },
+  {
+    "file": "50-settings-store.png",
+    "title": "الإعدادات — معلومات المتجر",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104579052#/settings"
+  },
+  {
+    "file": "51-settings-branches.png",
+    "title": "الإعدادات — الفروع",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104580073#/settings"
+  },
+  {
+    "file": "52-settings-language.png",
+    "title": "الإعدادات — اللغة والعملة",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104581070#/settings"
+  },
+  {
+    "file": "53-settings-tax.png",
+    "title": "الإعدادات — الضرائب",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104582031#/settings"
+  },
+  {
+    "file": "54-settings-payments.png",
+    "title": "الإعدادات — طرق الدفع",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104583001#/settings"
+  },
+  {
+    "file": "55-settings-invoices.png",
+    "title": "الإعدادات — إعدادات الفواتير",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104583977#/settings"
+  },
+  {
+    "file": "56-settings-sales-purchases.png",
+    "title": "الإعدادات — المبيعات والمشتريات",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104584915#/settings"
+  },
+  {
+    "file": "57-settings-inventory.png",
+    "title": "الإعدادات — المنتجات والمخزون",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104585890#/settings"
+  },
+  {
+    "file": "58-settings-loyalty.png",
+    "title": "الإعدادات — برنامج الولاء",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104586872#/settings"
+  },
+  {
+    "file": "59-settings-notifications.png",
+    "title": "الإعدادات — الإشعارات",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104587833#/settings"
+  },
+  {
+    "file": "60-settings-devices.png",
+    "title": "الإعدادات — الطابعات والأجهزة",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104588819#/settings"
+  },
+  {
+    "file": "61-settings-appearance.png",
+    "title": "الإعدادات — المظهر",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104589822#/settings"
+  },
+  {
+    "file": "62-settings-backup.png",
+    "title": "الإعدادات — النسخ الاحتياطي",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104590841#/settings"
+  },
+  {
+    "file": "63-settings-activity.png",
+    "title": "الإعدادات — سجل النشاط",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104591920#/settings"
+  },
+  {
+    "file": "64-settings-advanced.png",
+    "title": "الإعدادات — إعدادات متقدمة",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104593015#/settings"
+  },
+  {
+    "file": "65-settings-save.png",
+    "title": "الإعدادات — حفظ التغييرات",
+    "url": "https://elsayco.github.io/DressPOS/?capture=1794104594095#/settings"
+  },
+  {
+    "file": "66-logout-button.png",
+    "title": "زر تسجيل الخروج أعلى الشاشة",
+    "url": "https://elsayco.github.io/DressPOS/?v=39889de#/users"
+  },
+  {
+    "file": "67-logout-result.png",
+    "title": "العودة إلى تسجيل الدخول بعد تسجيل الخروج",
+    "url": "https://elsayco.github.io/DressPOS/?v=39889de#/login"
+  }
+]

@@ -9,6 +9,13 @@ Application/.headless-profile/
 # Local scratch helper
 Application/.inventory.py
 
+# Editor and agent session folders
+.claude/
+.codex/
+.vscode/
+.vexp/
+AGENTS.md
+
 # Local secrets and logs
 .env
 .env.*
